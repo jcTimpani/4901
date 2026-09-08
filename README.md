@@ -2,7 +2,7 @@
 
 A comprehensive system for tracking tech job openings in the Dallas-Fort Worth (DFW) area with AI-powered interview practice and skill gap analysis.
 
-## 🚀 Features
+##  Features
 
 ### Core Features
 - **Distributed Web Crawler**: Built with message queues (Redis) and worker pools
@@ -23,7 +23,7 @@ A comprehensive system for tracking tech job openings in the Dallas-Fort Worth (
 - **Salary Trends**: Average salary by experience level and job type
 - **Company Hiring Patterns**: Track company hiring activity
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 D:\7\
@@ -113,7 +113,7 @@ crawler:
   max_concurrent: 5
 ```
 
-## 🚀 Running the Application
+##  Running the Application
 
 ### Start Backend API
 ```bash
@@ -162,7 +162,7 @@ pytest tests/
 pytest --cov=ai_modules tests/
 ```
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 ### Starting a Job Search
 ```python
@@ -213,7 +213,7 @@ response = requests.post(
 analysis = response.json()
 ```
 
-## 🔒 Important Notes
+##  Important Notes
 
 ### robots.txt Compliance
 The crawler respects robots.txt and implements:
@@ -254,7 +254,7 @@ Default settings:
 └───────────────┘   └───────────────┘   └───────────────┘
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Backend**: FastAPI, SQLAlchemy, MySQL
 - **Crawler**: aiohttp, BeautifulSoup, Selenium
@@ -263,18 +263,18 @@ Default settings:
 - **AI**: OpenAI API (optional for enhanced features)
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript
 
-## 📝 License
+##  License
 
 This project is for educational purposes. Please ensure compliance with all applicable laws and terms of service when using web crawlers.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
 
-## 📞 Support
+##  Support
 
 For issues and questions:
 - Open a GitHub issue
@@ -282,4 +282,4 @@ For issues and questions:
 
 ---
 
-Built with ❤️ for the DFW tech community
+
