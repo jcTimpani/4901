@@ -45,7 +45,7 @@ D:\7\
 └── logs/                     # Application logs
 ```
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.11+
@@ -92,7 +92,7 @@ mysql -u root -p < database/schema.sql
 python -m spacy download en_core_web_sm
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 Edit `config.yaml` to customize:
 
@@ -152,7 +152,7 @@ python -m crawler.distributed_crawler
 - `GET /api/analytics/skills-demand` - Skill demand
 - `GET /api/analytics/salary-trends` - Salary data
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -233,7 +233,7 @@ Default settings:
 - 0.3 requests/second for job boards
 - Automatic backoff on 429 responses
 
-## 📈 Architecture
+##  Architecture
 
 ```
                     ┌─────────────────┐
